@@ -392,5 +392,3 @@ def main():
 
 if __name__=='__main__':
     main()
-
-# print("q0q00".index("q0"))
