@@ -1,3 +1,6 @@
+from utils.syntax_check import syntaxChecker
+
+
 def checkEqnSyntax(eqn):
     eqn="+"+eqn+"+"
     #equation syntax must be: "+<one state><one transition>..."
