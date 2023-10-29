@@ -1,5 +1,6 @@
 
 
+from main import stateInput
 from utils.remove_extra_spaces import formalities
 
 
@@ -10,7 +11,7 @@ def getCompanion(str,index,mode=True,nextPart=False):
     totalBracesCount=0
     pos=index
     companion=""
-    if str[index] in states and mode is True:
+    if str[index] in stateInput and mode is True:
         index+=1
     for x in str[index:]:
         if x=="(":

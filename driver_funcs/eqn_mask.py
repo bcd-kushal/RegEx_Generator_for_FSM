@@ -1,7 +1,10 @@
 
+from main import stateInput
+
+
 def convertToOurEqns():
     #IMPORTANT CAUTION !!!: only convert to code eqns in base state(so it has a state at left for each sub-machine part)
-    for i in range(0,len(state)):
+    for i in range(0,len(stateInput)):
         code["state"].append(states[i])
     for i in range(0,len(transition)):
         code["transition"].append(transitions[i])
